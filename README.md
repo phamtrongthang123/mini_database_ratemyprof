@@ -1,5 +1,7 @@
 # mini_database_ratemyprof
 
+Tạo thư mục database bằng `mkdir ./data`
+
 gán mongo database path bằng cách gõ bên dưới
 ```
 sudo mongod --dbpath=./data
