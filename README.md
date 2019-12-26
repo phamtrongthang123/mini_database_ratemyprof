@@ -11,7 +11,9 @@ sudo mongod --dbpath=./data
 ## Cách 1:
 xong gọi `node app.js` để insert bọn data vào , hiện tại có 9 collections (table) tất cả.
 
-Để kiểm tra bằng mongo shell thì tại terminal gõ `mongo`, sau đó `use myproject`, sau đó `show collections`, hiện đủ 9 bảng là ok
+Để kiểm tra bằng mongo shell thì tại terminal gõ `mongo`, sau đó `use myproject`, sau đó `show collections`, hiện đủ 9 bảng là ok.
+
+Muốn coi thêm nội dung thì gõ: `db.<table name>.find().pretty()`
 
 ## Cách 2: 
 sau khi clone về vào cd vào thư mục, gõ lệnh 
