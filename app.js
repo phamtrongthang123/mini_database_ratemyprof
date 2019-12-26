@@ -18,26 +18,31 @@ const insertUni = function(db, callback) {
 	collection.insertMany(
 		[
 			{
+				uni_id: 0,
 				name: 'Trường Đại học Bách khoa',
 				address: '268 Lý Thường Kiệt, phường 14, Quận 10, Thành phố Hồ Chí Minh',
 				photo: ''
 			},
 			{
+				uni_id: 1,
 				name: 'Trường Đại học Khoa học Tự nhiên',
 				address: '227 đường Nguyễn Văn Cừ, quận 5, Thành phố Hồ Chí Minh',
 				photo: ''
 			},
 			{
+				uni_id: 2,
 				name: 'Trường Đại học Khoa học Xã hội và Nhân văn',
 				address: '10–12 Đinh Tiên Hoàng, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh',
 				photo: ''
 			},
 			{
+				uni_id: 3,
 				name: 'Trường Đại học Quốc tế',
 				address: 'Khu phố 6, phường Linh Trung, quận Thủ Đức, Thành phố Hồ Chí Minh',
 				photo: ''
 			},
 			{
+				uni_id: 4,
 				name: 'Trường Đại học Sư phạm',
 				address: '280 An Dương Vương, Phường 4, Quận 5, Thành phố Hồ Chí Minh',
 				photo: ''
