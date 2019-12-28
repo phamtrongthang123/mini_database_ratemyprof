@@ -139,7 +139,7 @@ const insertTeacher = function(db, callback) {
 				uni_id: 1,
 				name: 'Trần Minh Triết',
 				title: 'PGS. TS.',
-				photo: '',
+				photo: '/img/teacher/tran-minh-triet.png',
 				verified: 1,
 				intro:
 					' Là sinh viên CNTT của trường Đại học Khoa Học Tự Nhiên, không ai không biết đến PGS.TS Trần Minh Triết. Tốt nghiệp Thủ khoa Cử nhân ngành CNTT ĐH KHTN TP.HCM, tốt nghiệp Thủ khoa và bảo vệ thành công luận văn Thạc sĩ với kết quả xuất sắc, bảo vệ loại xuất sắc luận án Tiến sĩ, PGS.TS Trần Minh Triết từng 2 lần nhận giải thưởng MVP (Most Valuable Professional) của Microsoft.',
@@ -151,7 +151,7 @@ const insertTeacher = function(db, callback) {
 				uni_id: 1,
 				name: 'Đinh Bá Tiến',
 				title: 'TS.',
-				photo: '',
+				photo: '/img/teacher/dinh-ba-tien.jpg',
 				verified: 1,
 				intro:
 					'Năm 2004, khi mới chỉ 25 tuổi và đang theo chương trình nghiên cứu sinh tiến sĩ về tin học tại Đại học Huddersfield ở Anh. Đinh Bá Tiến đã vượt qua hàng trăm ứng viên khác trên khắp thế giới và được tuyển chọn vào chương trình nghiên cứu trí thông minh nhân tạo của NASA để chế tạo các phần mềm điều khiển robot, phi thuyền tự hành.',
@@ -371,10 +371,10 @@ client.connect(function(err) {
 	const db = client.db(dbname);
 	insertTeacher(db, function() {});
 	insertUsers(db, function() {});
-	insertReview(db, function() {});
-	insertReport(db, function() {});
-	insertReact(db, function() {});
-	insertReply(db, function() {});
+	// insertReview(db, function() {});
+	// insertReport(db, function() {});
+	// insertReact(db, function() {});
+	// insertReply(db, function() {});
 	insertTeaching(db, function() {});
 	insertSubject(db, function() {});
 	insertUni(db, function() {
